@@ -87,7 +87,9 @@
 }
 
 - (void)takePhoto {
-    [self.imageOutput capturePhotoWithSettings:_outputSettings delegate:self];
+    NSDictionary *setDic = @{AVVideoCodecKey:AVVideoCodecJPEG};
+    AVCapturePhotoSettings *outputSettings = [AVCapturePhotoSettings photoSettingsWithFormat:setDic];
+    [self.imageOutput capturePhotoWithSettings:outputSettings delegate:self];
 }
 
 #pragma mark AVCapturePhotoCaptureDelegate
