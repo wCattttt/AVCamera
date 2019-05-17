@@ -14,6 +14,7 @@
 		9211C5431EAEEF280085D1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9211C5421EAEEF280085D1AD /* Assets.xcassets */; };
 		9211C5461EAEEF280085D1AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9211C5441EAEEF280085D1AD /* LaunchScreen.storyboard */; };
 		9211C54F1EAEEF540085D1AD /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9211C54E1EAEEF540085D1AD /* PhotoView.m */; };
+		92C58B7A228E98A100B7A018 /* IMG_7611.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 92C58B79228E98A100B7A018 /* IMG_7611.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		9211C5471EAEEF280085D1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9211C54D1EAEEF540085D1AD /* PhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoView.h; sourceTree = "<group>"; };
 		9211C54E1EAEEF540085D1AD /* PhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoView.m; sourceTree = "<group>"; };
+		92C58B79228E98A100B7A018 /* IMG_7611.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_7611.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				9211C5421EAEEF280085D1AD /* Assets.xcassets */,
 				9211C5441EAEEF280085D1AD /* LaunchScreen.storyboard */,
 				9211C5471EAEEF280085D1AD /* Info.plist */,
+				92C58B79228E98A100B7A018 /* IMG_7611.PNG */,
 				9211C5361EAEEF280085D1AD /* Supporting Files */,
 			);
 			path = AVCamera;
@@ -125,6 +128,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -145,6 +149,7 @@
 			files = (
 				9211C5461EAEEF280085D1AD /* LaunchScreen.storyboard in Resources */,
 				9211C5431EAEEF280085D1AD /* Assets.xcassets in Resources */,
+				92C58B7A228E98A100B7A018 /* IMG_7611.PNG in Resources */,
 				9211C5411EAEEF280085D1AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
